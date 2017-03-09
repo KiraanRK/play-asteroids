@@ -9,6 +9,7 @@ maxx, maxy = tft.getscreensize();
 
 tft.setclipwin(0, tft.getfontheight() + 5, maxx, maxy);
 
+require('play/play');
 require('games/asteroids');
 
 asteroids.start();

@@ -1,6 +1,4 @@
-
-
-asteroids = {
+local asteroids = {
     running = false;
     shouldStop = false;
 }
@@ -28,3 +26,5 @@ end
 function asteroids.stop()
     asteroids.shouldStop = true;
 end
+
+return asteroids;

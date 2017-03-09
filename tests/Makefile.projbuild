@@ -1,0 +1,9 @@
+
+
+.PHONY: test
+
+test: $(SDKCONFIG_MAKEFILE)
+	@echo "Running tests..."
+	lua tests/testMain.lua
+	
+	

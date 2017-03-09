@@ -9,3 +9,4 @@ EXTRA_COMPONENT_DIRS := $(EXTRA_COMPONENTS_PATH)
 
 include $(IDF_PATH)/make/project.mk
 
+include ./tests/Makefile.projbuild

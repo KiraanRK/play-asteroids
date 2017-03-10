@@ -1,7 +1,7 @@
 package.path = package.path .. ';./components/spiffs_image/image/?.lua;;./components/spiffs_image/image/play/?.lua'
 
 -- Require jasmine unit test framework
-jasmine = require('tests/jasmine');
+jasmine = require('tests/jasmine/jasmine');
 
 -- List of specs
 names = {
